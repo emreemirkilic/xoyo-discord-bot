@@ -1,7 +1,7 @@
 const { Message } = require('discord.js');
 const { Client } = require('discord.js-commando');
 const { create } = require('domain');
-const fs = require('fs');
+const fs = require("fs");
 const path = require('path');
 
 const client = new Client({
